@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "780781339560",
+    "project_id": "fir-4afda",
+    "storage_bucket": "fir-4afda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780781339560:android:6beea90d85757ec1e5939d",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_book_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy8tagcxUO5bjQdzRvkn8rNM29ezOIOpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780781339560:android:a4f040f524c3d7cde5939d",
+        "android_client_info": {
+          "package_name": "com.example.firebase_data"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy8tagcxUO5bjQdzRvkn8rNM29ezOIOpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780781339560:android:db5276fb19215a7fe5939d",
+        "android_client_info": {
+          "package_name": "com.example.firebase_database"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy8tagcxUO5bjQdzRvkn8rNM29ezOIOpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

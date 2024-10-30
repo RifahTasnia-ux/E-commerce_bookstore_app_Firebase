@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".SignupActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/et_shape"
+        android:hint="Name"
+        android:drawableLeft="@drawable/custom_name"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textStyle="bold"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <EditText
+        android:id="@+id/etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/et_shape"
+        android:hint="Mobile Number"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:drawableLeft="@drawable/custom_mobile"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/et_shape"
+        android:drawableLeft="@drawable/custom_email"
+        android:imeOptions="actionNext"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingLeft="10dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/et_shape"
+        android:imeOptions="actionDone"
+        android:drawableLeft="@drawable/custom_password"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_shape"
+        android:layout_gravity="center"
+        android:text="Sign Up"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/framelauout"
+        android:layout_marginTop="-7dp"
+        android:backgroundTint="@color/white"
+        android:indeterminate="true"
+        android:indeterminateTint="#1a09d6"
+        android:max="100"
+        android:visibility="gone" />
+
+</LinearLayout>

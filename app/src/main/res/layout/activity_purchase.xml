@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background3"
+    tools:context=".PurchaseActivity">
+    <ImageView
+        android:id="@+id/getting_image"
+        android:layout_width="280dp"
+        android:layout_height="320dp"
+        android:scaleType="fitXY"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/g_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#E803A9F4"
+        android:padding="5dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/g_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#E803A9F4"
+        android:padding="5dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/g_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#E803A9F4"
+        android:padding="5dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/g_available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available"
+        android:textColor="#E803A9F4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Add to Cart"
+        android:id="@+id/cartbtn"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Purchase"
+        android:id="@+id/prchsbtn"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#EE03A9F4">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/sajek"
+            android:scaleType="fitXY"
+            android:id="@+id/product_image"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="P Name"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:padding="5dp"
+                android:textColor="#673AB7"
+                android:id="@+id/product_sample_name"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="P Price"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#673AB7"
+                android:padding="5dp"
+                android:id="@+id/product_sample_price"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="P Quantity"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:textColor="#673AB7"
+                android:id="@+id/product_sample_quantity"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
